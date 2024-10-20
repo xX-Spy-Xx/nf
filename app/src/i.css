@@ -1,0 +1,27 @@
+* {
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-image: url('GG.jpg');
+    background-size: cover;
+    height: 100vh; /* ให้มีความสูงเต็มจอ */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* เปลี่ยนสีและความทึบได้ตามต้องการ */
+    z-index: 1; /* วางให้เหนือภาพพื้นหลัง */
+}
+
+body > * {
+    position: relative;
+    z-index: 2; /* ให้องค์ประกอบอื่นๆ อยู่เหนือเลเยอร์นี้ */
+}

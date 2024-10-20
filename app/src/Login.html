@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="i.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<nav >
+    <div class="flex items-center justify-between  ">
+        <ul class="flex items-center">
+            <li><img class="w-36 ml-20 mt-2" src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo.png" alt="Netflix Logo"/></li>
+        </ul> 
+    </div>  
+</nav>
+
+<body>
+    <div class="flex justify-center items-center h-[70vh] ">
+        <div class="w-96 p-6 shadow-lg bg-gray-300 rounded-xl  border-4 border-red-600">
+            <h1 class="text-3xl block text-center font-semibold text-black"> Login</h1>
+            <hr class="my-4 border-t-2 border-black">
+
+            <div class="mt-3">
+                <label for="username" class="block text-base mb-2 font-semibold">อีเมล</label>
+                <input type="text" id="username" class="rounded-md border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" 
+                placeholder="Enter Email..." />
+            </div>
+            <div class="mt-3">
+                <label for="password" class="block text-base mb-2 font-semibold">รหัสผ่าน</label>
+                <input type="password" id="password" class="rounded-md border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" 
+                placeholder="Enter Password..." />
+            </div>
+            <div class="mt-3 flex justify-between items-center">
+                <div>
+                    <input type="checkbox">
+                    <label class="font-semibold">Remember Me</label>
+                </div>
+                <div>
+                    <a href="#" class="text-black font-semibold ">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="mt-5">
+                <button type="submit" class="border-2 border-black bg-red-600 text-white py-1 w-full rounded-md hover hover:text-green-400 font-semibold"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp;Login</button>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
