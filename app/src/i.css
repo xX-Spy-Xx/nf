@@ -24,4 +24,8 @@ body::before {
 body > * {
     position: relative;
     z-index: 2; /* ให้องค์ประกอบอื่นๆ อยู่เหนือเลเยอร์นี้ */
+    
+    
+   
+    
 }
