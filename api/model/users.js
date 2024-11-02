@@ -12,7 +12,10 @@ const users = conn.define('User',{
     Email:{
         type:DataTypes.STRING
     },
-    Password:{
+    password:{
+        type:DataTypes.STRING
+    },
+    confirmPassword:{
         type:DataTypes.STRING
     }
 })
