@@ -9,13 +9,16 @@ const Movie = conn.define('Movie',{
     Title:{
         type:DataTypes.STRING
     },
-    Release:{
-        type:DataTypes.INTEGER
-    },
-    Duration:{
+    Genres:{
         type:DataTypes.STRING
     },
-    Genre:{
+    Season:{
+        type:DataTypes.STRING
+    },
+    Section:{
+        type:DataTypes.STRING
+    },
+    Duration:{
         type:DataTypes.STRING
     },
     Director:{
